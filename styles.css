@@ -1,0 +1,58 @@
+/* This is for my body or  default styling in html page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #12343B;
+    margin: 0;
+}
+/* This is my calculator styling in css .(dot) means class */
+.calculator {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+/*This is my calculator display styling in css #(hastag) means id */
+#display {
+    background-color: #222;
+    color: #fff;
+    font-size: 2em;
+    padding: 10px;
+    text-align: right;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+/*This is my calculator buttons styling with class*/
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+/*This is my calculator also buttons(btn) styling in css with class */
+.btn {
+    background-color: #FFF685;
+    border: none;
+    padding: 20px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*This is my calculator button operator styling with classes */
+.btn.operator {
+    background-color: #0049B7;
+    color: #fff;
+}
+/*This is my calculator history store styling in css with id */
+#history {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    max-height: 150px;
+    overflow-y: auto;
+    font-size: 0.9em;
+}
+/*CSS Code was over next move on my script file coding*/
